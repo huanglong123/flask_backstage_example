@@ -1,0 +1,10 @@
+{% extends 'admin/edit.html' %}
+
+
+{% block js %}
+    {{ super() }}
+	<script>
+        var csrf_token = "{{ csrf_token() }}";
+		image_upload('image','{{ url_for('frontend.get_image', tag='home') }}', csrf_token, '{{ oss_static_url }}')
+	</script>
+{% endblock %}
