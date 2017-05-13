@@ -7,7 +7,7 @@ from apps import create_app
 from flask_script import Manager
 from flask_script.commands import Clean, ShowUrls
 
-app = create_app('config.cfg')
+app = create_app('config.ini')
 manager = Manager(app)
 manager.add_command('clean', Clean())
 manager.add_command('urls', ShowUrls())
