@@ -1,9 +1,4 @@
 # -*- coding:utf-8 -*-
-"""
-文件结构组织和说明可以参照文档 http://pm.oa.com/projects/telking/wiki/FLASK%E7%BD%91%E7%AB%99%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84
-初始化网站, http://docs.jinkan.org/docs/flask/patterns/appfactories.html
-批量引入可以使用 from werkzeug.utils import import_string
-"""
 from flask import Flask
 from flask_mongoengine import MongoEngine
 from flask_backstage import Admin
