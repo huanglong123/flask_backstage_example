@@ -11,9 +11,6 @@ class PostView(BaseModelView):
 	image_list = ['image']
 	create_templates = 'frontend/create_post.html'
 	edit_templates = 'frontend/edit_post.html'
-	can_create = False
-	can_delete = False
-	can_edit = False
 
 	def is_accessible(self):
 		return admin_create_required(role=0)
