@@ -3,7 +3,9 @@ flask_backstage_example
 
 flask_backstage使用例子
 
-在线演示地址 http://backstage.kbiaoqing.cn/admin/
+运行python manage.py runserver
+
+即可访问 http://127.0.0.1:5000/admin/
 
 账号：admin
 
